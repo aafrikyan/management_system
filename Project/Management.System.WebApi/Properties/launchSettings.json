@@ -1,0 +1,34 @@
+﻿{
+    "profiles": {
+        "Production": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "hotReloadEnabled": false,
+            "launchUrl": "docs",
+            "applicationUrl": "http://127.0.0.1:21000",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": ""
+            }
+        },
+        "Staging": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "hotReloadEnabled": false,
+            "launchUrl": "docs",
+            "applicationUrl": "http://127.0.0.1:21000",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Staging"
+            }
+        },
+        "Development": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "hotReloadEnabled": false,
+            "launchUrl": "docs",
+            "applicationUrl": "http://127.0.0.1:21000",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}

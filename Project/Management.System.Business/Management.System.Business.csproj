@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Management.System.Domain\Management.System.Domain.csproj" />
+	  <ProjectReference Include="..\Management.System.Shared\Management.System.Shared.csproj" />
+	</ItemGroup>
+
+</Project>
